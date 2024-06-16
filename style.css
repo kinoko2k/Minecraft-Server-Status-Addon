@@ -1,0 +1,83 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: green;
+    padding: 20px;
+}
+
+.header-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ip-input {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.search-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.search-button:hover {
+    background-color: #f0f0f0;
+}
+
+.status-container {
+    padding: 20px;
+    font-size: 16px;
+    background-color: #f9f9f9;
+    border-top: 2px solid #ddd;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 60%;
+    margin: 20px auto;
+}
+
+.status-container p {
+    margin: 10px 0;
+    color: #333;
+}
+
+.status-container .online {
+    color: green;
+    font-weight: bold;
+}
+
+.status-container .offline {
+    color: red;
+    font-weight: bold;
+}
+
+.status-container .player-list {
+    color: #555;
+    margin-top: 15px;
+    max-height: 200px;
+    overflow-y: auto;
+    padding-right: 10px;
+}
+
+.status-container .motd {
+    margin-top: 10px;
+    font-style: italic;
+    color: #666;
+}
+
+.status-container code {
+    background-color: #555;
+}
